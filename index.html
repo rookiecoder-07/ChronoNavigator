@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChronoNavigator</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>⏳ ChronoNavigator</h1>
+    <p class="tagline">Your Portal to the Past, Present & Future</p>
+
+    <div class="controls">
+      <input type="radio" name="time" id="past" checked>
+      <input type="radio" name="time" id="present">
+      <input type="radio" name="time" id="future">
+
+      <div class="buttons">
+        <label for="past">Past</label>
+        <label for="present">Present</label>
+        <label for="future">Future</label>
+      </div>
+
+      <div class="panel">
+        <div class="preview past">
+          <h2>Ancient Egypt</h2>
+          <div class="scene">
+            <div class="sun"></div>
+            <div class="pyramid"></div>
+          </div>
+        </div>
+        <div class="preview present">
+          <h2>Modern Day</h2>
+          <div class="scene">
+            <div class="city"></div>
+            <div class="road"></div>
+          </div>
+        </div>
+        <div class="preview future">
+          <h2>Cyber City 3025</h2>
+          <div class="scene">
+            <div class="neon-tower"></div>
+            <div class="flying-car"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="launch">
+        <button disabled>INITIATE TRAVEL</button>
+        <p class="hint">[ Function disabled for your safety 😄 ]</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
